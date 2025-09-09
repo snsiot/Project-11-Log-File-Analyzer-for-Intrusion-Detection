@@ -15,7 +15,13 @@ A Python-based tool that analyzes Apache and SSH log files to detect suspicious 
 ---
 
 ## 🛠️ How to Run
-
-```bash
 pip install -r requirements.txt
 python log_analyzer.py
+
+## Inputs:
+logs/sample_ssh.log — example log file
+blacklist.txt — IPs to flag immediately
+
+## Outputs:
+incident_report.csv — flagged IP activity
+visuals/activity_plot.png — bar graph of log volume by hour
