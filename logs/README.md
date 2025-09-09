@@ -4,7 +4,7 @@ A Python-based tool that analyzes Apache and SSH log files to detect suspicious 
 
 ---
 
-## 🚀 Features
+## 🚀 Feature
 
 - Parse and analyze SSH log files
 - Detect brute-force attempts based on IP frequency
